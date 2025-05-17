@@ -35,12 +35,18 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex-1 flex justify-center items-center">
-            <div className="relative w-full max-w-md aspect-square bg-white rounded-full p-8 shadow-lg flex items-center justify-center">
+            <div className="w-full max-w-md flex flex-col items-center">
               <img
                 src="/lovable-uploads/07a1334c-3c37-46f0-a387-979dbcb990d9.png"
                 alt="WL Motos Logo"
-                className="w-full h-auto"
+                className="w-full max-w-xs h-auto mb-4"
               />
+              <div className="bg-primary text-white text-xl font-bold py-3 px-6 rounded-md mt-4 shadow-md">
+                WL MOTOS
+              </div>
+              <p className="text-gray-700 text-lg mt-2 font-medium text-center">
+                Sua oficina de confiança
+              </p>
             </div>
           </div>
         </div>
