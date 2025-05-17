@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <img 
-              src="/lovable-uploads/07a1334c-3c37-46f0-a387-979dbcb990d9.png" 
+              src="/lovable-uploads/eab85b93-bd04-4175-a703-b36b5572e4f2.png" 
               alt="WL Motos Logo" 
               className="h-14 w-auto"
             />
