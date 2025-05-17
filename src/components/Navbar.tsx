@@ -11,14 +11,14 @@ const Navbar = () => {
           <a href="#servicos" className="font-medium hover:text-primary transition-colors">Serviços</a>
           <a href="#beneficios" className="font-medium hover:text-primary transition-colors">Benefícios</a>
           <a href="#contato" className="font-medium hover:text-primary transition-colors">Contato</a>
-          <a href="https://wa.me/5599284042" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white flex items-center gap-2 py-2 px-4 rounded-md transition-colors">
+          <a href="https://wa.me/556792840420" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white flex items-center gap-2 py-2 px-4 rounded-md transition-colors">
             <Phone size={18} />
             <span>67 99284-0420</span>
           </a>
         </div>
 
         <div className="md:hidden">
-          <a href="https://wa.me/5599284042" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white flex items-center gap-2 p-2 rounded-md transition-colors">
+          <a href="https://wa.me/556792840420" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white flex items-center gap-2 p-2 rounded-md transition-colors">
             <Phone size={18} />
           </a>
         </div>

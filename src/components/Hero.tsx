@@ -18,14 +18,19 @@ const Hero = () => {
               <a href="#contato" className="cta-button flex items-center justify-center gap-2">
                 Agendar Serviço <ArrowRight size={18} />
               </a>
-              <a href="https://wa.me/5599284042" target="_blank" rel="noopener noreferrer" className="border border-gray-300 hover:border-primary bg-white text-gray-800 hover:text-primary font-semibold py-3 px-8 rounded-md shadow-sm flex items-center justify-center gap-2 transition-all duration-300">
+              <a href="https://wa.me/556792840420" target="_blank" rel="noopener noreferrer" className="border border-gray-300 hover:border-primary bg-white text-gray-800 hover:text-primary font-semibold py-3 px-8 rounded-md shadow-sm flex items-center justify-center gap-2 transition-all duration-300">
                 Fazer Orçamento
               </a>
             </div>
           </div>
           <div className="flex-1 flex justify-center items-center">
             <div className="w-full max-w-md flex justify-center items-center">
-              <img src="/lovable-uploads/4e74b841-7796-48bf-937c-b1c3af8a69cb.png" alt="WL Motos Logo" className="w-full max-w-xs h-auto" />
+              <img
+  src="/lovable-uploads/4e74b841-7796-48bf-937c-b1c3af8a69cb.png"
+  alt="WL Motos Logo"
+  className="w-full max-w-xs h-auto opacity-15 md:opacity-100"
+/>
+
             </div>
           </div>
         </div>

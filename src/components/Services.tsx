@@ -60,7 +60,7 @@ const Services = () => {
               Não somos autorizados nem fazemos vistoria, mas somos experientes, 
               honestos e resolvemos o que sua moto precisa sem complicação.
             </p>
-            <a href="https://wa.me/5599284042" target="_blank" rel="noopener noreferrer" className="cta-button inline-flex items-center gap-2">
+            <a href="https://wa.me/556792840420" target="_blank" rel="noopener noreferrer" className="cta-button inline-flex items-center gap-2">
               Ver todos os serviços <ArrowRight size={18} />
             </a>
           </div>
