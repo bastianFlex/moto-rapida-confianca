@@ -1,41 +1,31 @@
-
 import React from "react";
 import { MapPin, Phone, Wrench } from "lucide-react";
-
 const Benefits = () => {
-  const benefits = [
-    {
-      icon: <MapPin className="text-primary" size={24} />,
-      title: "Atendimento Local",
-      description: "Atendemos direto no bairro, sem burocracia e com facilidade de acesso.",
-    },
-    {
-      icon: <Phone className="text-primary" size={24} />,
-      title: "Orçamento Rápido",
-      description: "Chama no WhatsApp e receba seu orçamento sem compromisso!",
-    },
-    {
-      icon: <Wrench className="text-primary" size={24} />,
-      title: "Serviço de Confiança",
-      description: "Feito com cuidado por quem realmente entende de moto no dia a dia.",
-    },
-  ];
-
-  return (
-    <section id="beneficios" className="py-20 bg-gray-50">
+  const benefits = [{
+    icon: <MapPin className="text-primary" size={24} />,
+    title: "Atendimento Local",
+    description: "Atendemos direto no bairro, sem burocracia e com facilidade de acesso."
+  }, {
+    icon: <Phone className="text-primary" size={24} />,
+    title: "Orçamento Rápido",
+    description: "Chama no WhatsApp e receba seu orçamento sem compromisso!"
+  }, {
+    icon: <Wrench className="text-primary" size={24} />,
+    title: "Serviço de Confiança",
+    description: "Feito com cuidado por quem realmente entende de moto no dia a dia."
+  }];
+  return <section id="beneficios" className="py-20 bg-slate-200">
       <div className="container mx-auto px-4">
         <h2 className="section-title">Por que escolher a WL Motos?</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {benefits.map((benefit, index) => (
-            <div key={index} className="benefit-card">
+          {benefits.map((benefit, index) => <div key={index} className="benefit-card">
               <div>{benefit.icon}</div>
               <div>
                 <h3 className="font-semibold mb-1">{benefit.title}</h3>
                 <p className="text-gray-600">{benefit.description}</p>
               </div>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         <div className="bg-white p-8 rounded-lg shadow-md">
@@ -85,8 +75,6 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Benefits;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Phone } from "lucide-react";
 const Navbar = () => {
-  return <nav className="w-full bg-white shadow-sm py-4 sticky top-0 z-50">
+  return <nav className="w-full shadow-sm py-4 sticky top-0 z-50 bg-slate-200">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src="/lovable-uploads/4e74b841-7796-48bf-937c-b1c3af8a69cb.png" alt="WL Motos Logo" className="h-14 w-auto" />
@@ -13,7 +13,7 @@ const Navbar = () => {
           <a href="#contato" className="font-medium hover:text-primary transition-colors">Contato</a>
           <a href="https://wa.me/5599284042" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white flex items-center gap-2 py-2 px-4 rounded-md transition-colors">
             <Phone size={18} />
-            <span>67 9928-4042</span>
+            <span>67 99284-0420</span>
           </a>
         </div>
 
