@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/eab85b93-bd04-4175-a703-b36b5572e4f2.png" 
+            src="/lovable-uploads/4e74b841-7796-48bf-937c-b1c3af8a69cb.png" 
             alt="WL Motos Logo" 
             className="h-14 w-auto"
           />

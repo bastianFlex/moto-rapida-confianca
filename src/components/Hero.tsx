@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="flex-1 flex justify-center items-center">
             <div className="w-full max-w-md flex justify-center items-center">
               <img 
-                src="/lovable-uploads/eab85b93-bd04-4175-a703-b36b5572e4f2.png" 
+                src="/lovable-uploads/4e74b841-7796-48bf-937c-b1c3af8a69cb.png" 
                 alt="WL Motos Logo" 
                 className="w-full max-w-xs h-auto"
               />
