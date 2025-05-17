@@ -37,7 +37,7 @@ const Contact = () => {
             <h3 className="section-subtitle">WhatsApp para Orçamento</h3>
             <div className="flex items-center gap-3 mb-6">
               <Phone className="text-primary" size={20} />
-              <p className="font-semibold">(99) 9284-042</p>
+              <p className="font-semibold">(67) 9284-0420</p>
             </div>
             
             <div className="animate-pulse-slow">
